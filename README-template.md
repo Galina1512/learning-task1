@@ -2,10 +2,9 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Galina1512/learning-task1.git)
+- Live Site URL: [Add live site URL here](https://learning-task1.netlify.app/)
 
-## My process
 
 ### Built with
 
@@ -13,15 +12,9 @@
 - CSS custom properties
 - Flexbox
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-
-
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - https://kostina-portfolio.netlify.app/
 
 
