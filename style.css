@@ -1,0 +1,141 @@
+body{
+    background-image: url(./assets/images/A-unsplash.jpg);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    background-color:hsl(228,71%,99%);
+    box-shadow: rgba(100, 100, 111, 0.9) 0px 7px 29px 0px;
+    margin:100px 80px;
+    padding: 50px;
+}
+.greyblank{
+    width: 50%;
+    box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+    border-radius: 10px;
+    margin: 60px 200px;
+    padding: 20px;
+    background-color:hsl(0, 0%, 100%);
+
+}
+.header{
+    display: flex;
+    justify-content:sta;
+    margin: 5px 15px;
+}
+.mynumber{
+    padding: 3px 10px;
+    margin-left: 10px ;
+    margin-top: 18px;
+
+    color: white;
+    background-color:  hsl(219, 54%, 35%);
+    border-radius: 5px;
+}
+.btn{
+margin: 18px 0 18px auto;
+font-size: 18px;    
+color:  hsl(219, 54%, 35%);
+}
+.comment{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin: 15px;
+    background-color: hsl(206,64%,98%);
+
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.text p {
+    margin: 5px;
+}
+p{
+    color: hsl(219, 12%, 42%);
+}
+img{
+    margin: 20px;
+    width: 50px;
+    align-self: flex-start;
+}
+span{
+    font-weight: 700;
+    color: black;
+}
+
+span:hover{
+    cursor:pointer;
+    color: hsl(219, 55%, 45%);
+}
+
+.text2{
+    background-color:hsl(209,64%,94%);
+/* border: 1px solid hsl(204, 77%, 86%); */
+padding: 20px;
+margin-top: 10px;
+}
+.text2:hover, .pic:hover, .btn:hover{
+    cursor:pointer;
+}
+.changecolor{
+    background-color: white;
+}
+
+@media all and (max-width:1000px) {
+    section{
+        margin:80px 40px;
+        padding: 30px;
+    }
+    
+    .greyblank{
+        width: 80%;
+        border-radius: 10px;
+        margin: 60px 80px;
+        padding: 20px;
+    
+    }
+}
+
+@media all and (max-width:600px) {
+    section{
+        margin:40px 20px;
+        padding: 20px;
+    }
+    
+    .greyblank{
+        width: 80%;
+        border-radius: 10px;
+        margin: 30px;
+        padding: 15px;
+    
+    }
+    h2{
+        font-size: 20px;
+    }
+    .btn, p, span {
+        font-size: 14px;
+    }
+}
+@media all and (max-width:500px) {
+    section{
+        margin:20px;
+        padding:0px;
+    }
+    
+    .greyblank{
+        width: 100%;
+        border-radius: 10px;
+        margin: 0px;
+        padding: 15px;
+    
+    }
+    .comment{
+        margin: 5px;
+   
+    }
+    
+}
