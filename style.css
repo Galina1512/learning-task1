@@ -1,14 +1,12 @@
 body{
-    background-image: url(./assets/images/A-unsplash.jpg);
-    font-family: 'Plus Jakarta Sans', sans-serif;
-}
-section{
     display: flex;
     justify-content: center;
     background-color:hsl(228,71%,99%);
     box-shadow: rgba(100, 100, 111, 0.9) 0px 7px 29px 0px;
-    margin:100px 80px;
+    margin:70px 80px;
     padding: 50px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
 }
 .greyblank{
     width: 50%;
@@ -24,6 +22,9 @@ section{
     justify-content:sta;
     margin: 5px 15px;
 }
+h1{
+    font-size: 28px;
+}
 .mynumber{
     padding: 3px 10px;
     margin-left: 10px ;
@@ -32,6 +33,9 @@ section{
     color: white;
     background-color:  hsl(219, 54%, 35%);
     border-radius: 5px;
+}
+h2{
+    font-size: 18px;
 }
 .btn{
 margin: 18px 0 18px auto;
